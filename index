@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "utf-8"/>
+		<title>首頁</title>
+		<style type = "text/css">
+		body{
+				background-image: url(Homebackground.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+		.NEWGAME {position: absolute;
+				  top: 110px;
+				  right: 250px;
+				  width: 300px;
+				  height: 100px;}
+		.Game    {position: absolute;
+				  top: 250px;
+				  right: 250px;
+				  width: 300px;
+				  height: 100px;}
+		.option  {position: absolute;
+				  top: 390px;
+				  right: 250px;
+				  width: 300px;
+				  height: 90px;}
+		.ppt     {position: absolute;
+				  top: 500px;
+				  right: 250px;
+				  width: 300px;
+				  height: 90px}
+		.word01_image{
+				position: absolute;
+				left:350px;
+				width:200px;
+				height:250px;
+				z-index:3;}
+		.word02_image{
+				position: absolute;
+				top: 280px;
+				left:350px;
+				width:200px;
+				height:250px;
+				z-index:3;}
+	    .word03_image{
+				position: absolute;
+				left:570px;
+				width:200px;
+				height:250px;
+				z-index:3;}
+	    .word04_image{
+				position: absolute;
+				top: 280px;
+				left:570px;
+				width:200px;
+				height:250px;
+				z-index:3;}
+		</style>
+		<script type = "text/javascript">
+		</script> 
+	</head>
+	<body>
+	<embed src="遊戲登入介面BGM.mp4" autostart=true hidden=true loop=true width = 0 height = 0">
+    
+	<a href = "Home.html"><img src = "NEW GAME_selected.png" class = "NEWGAME" alt = "NEWGAME"></a>
+    <a href = "introduction.html"><img src = "Game_selected.png" class = "Game" alt = "Game"></a>
+	<a href = "mailto:cloudy16@hotmail.com"><img src = "option_selected.png" class = "option" alt = "option"></a>
+    <a href = "networkproject.pptx"><img src = "ppt_selected.png" class = "ppt" alt = "ppt"></a>
+		
+	<img src = "word01.png" class = "word01_image" alt = "word01_image">
+	<img src = "word02.png" class = "word02_image" alt = "word02_image">
+	<img src = "word03.png" class = "word03_image" alt = "word03_image">
+	<img src = "word04.png" class = "word04_image" alt = "word04_image">
+	</body>
+</html>
