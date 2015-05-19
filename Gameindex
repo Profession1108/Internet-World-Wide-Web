@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "utf-8"/>
+		<title>天龍霸主</title>
+		<style type = "text/css">
+			body{
+				background-image: url(paper.png);
+				
+			}
+			.title{
+				position: absolute;
+				
+				z-index:3;
+			}
+			.word01_image{
+				position: absolute;
+				width:200px;
+				height:250px;
+				z-index:3;
+			}
+			.word02_image{
+				position: absolute;
+				left:200px;
+				width:200px;
+				height:250px;
+				z-index:3;
+			}
+			.word03_image{
+				position: absolute;
+				left:400px;
+				width:200px;
+				height:250px;
+				z-index:3;
+			}
+			.word04_image{
+				position: absolute;
+				left:600px;
+				width:200px;
+				height:250px;
+				z-index:3;
+			}
+		    
+			
+			
+			
+			.Keelungimage{ position: absolute;
+							top: 200px;
+							left: 50px; 
+							width:800px;
+							z-index:1;}								 
+		    .Taipeiimage { position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}			
+	        .Taoyuanimage{ position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}					
+	        .Hsinchuimage{ position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}		
+		    .Miaoliimage{  position: absolute;
+		 					top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}		
+		    .Taichungimage{position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}		
+		    .Changhuaimage{position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}				
+		    .Yunlinimage{  position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}			
+		    .Chiayiimage{  position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}			
+		    .Tainanimage{  position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}				
+		    .Kaohsiungimage{position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}		
+		    .Pingtungimage{position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}			
+		    .Ilanimage	{   position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}			
+		    .Hualienimage{ position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}			
+		    .Taitungimage{ position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}			
+		    .Nantouimage{  position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}			
+		    .Penghuimage{  position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}
+
+			.GreenIslandimage	{position: absolute;
+								 top: 200px;
+								 left: 50px;
+								 width:800px;
+								 z-index:1;}					
+			.OrchidIslandimage{position: absolute;
+								 top: 200px;
+								 left: 50px;
+								 width:800px;
+								 z-index:1;}
+								 
+								 
+								 
+								 
+			.Keelungimage{ position: absolute;
+							top: 200px;
+							left: 50px; 
+							width:800px;
+							z-index:1;}								 
+		    .Taipeiimage { position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}			
+	        .Taoyuanimage{ position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}					
+	        .Hsinchuimage{ position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}		
+		    .Miaoliimage{  position: absolute;
+		 					top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}		
+		    .Taichungimage{position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}		
+		    .Changhuaimage{position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}				
+		    .Yunlinimage{  position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}			
+		    .Chiayiimage{  position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}			
+		    .Tainanimage{  position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}				
+		    .Kaohsiungimage{position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}		
+		    .Pingtungimage{position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}			
+		    .Ilanimage	{   position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}			
+		    .Hualienimage{ position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}			
+		    .Taitungimage{ position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}			
+		    .Nantouimage{  position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}			
+		    .Penghuimage{  position: absolute;
+							top: 200px;
+							left: 50px;
+							width:800px;
+							z-index:1;}
+
+			.GreenIslandimage	{position: absolute;
+								 top: 200px;
+								 left: 50px;
+								 width:800px;
+								 z-index:1;}					
+			.OrchidIslandimage{position: absolute;
+								 top: 200px;
+								 left: 50px;
+								 width:800px;
+								 z-index:1;}
+			.resultimage{position: absolute;
+								top: 50px;
+								 left: 50px;
+								 width:800px;
+								 z-index:-1;}
+			.cardsize		{height: 200px;
+							 width: 160px;
+							 z-index: 5;}
+			#playervalue	{color: royalblue;
+							 font-size:52px;
+							 z-index: 5;
+							 position: absolute;
+							 top: 310px;
+							 right: 420px;}
+			#bossvalue		{color: royalblue;
+							 font-size: 52px;
+							 z-index: 5;
+							 position: absolute;
+							 top: 310px;
+							 right: 270px;}
+			#card1			{position: absolute;
+							 top: 550px;
+							 right: 465px;
+							 width: 10em;}
+			#card2			{position: absolute;
+							 top: 550px;
+							 right: 300px;
+							 width: 10em;}
+			#card3			{position: absolute;
+							 top: 550px;
+							 right: 135px;
+							 width: 10em;}
+			#card4			{position: absolute;
+							 top: 760px;
+							 right: 465px;
+							 width: 10em;}
+			#card5			{position: absolute;
+							 top: 760px;
+							 right: 300px;
+							 width: 10em;}
+			.decidevalue	{position: absolute;
+							 top: 300px;
+							 right: 200px;}
+			.Ready			{position: absolute;
+							 top: 500px;
+							 right: 170px;}
+			.nextbutton     {position: absolute;
+							 top: 500px;
+							 right: 110px;}
+			.playerPosition	{position: absolute;
+							 top: 80px;
+							 right: 270px;}
+			.playerblood	{position: absolute;
+							 top: 400px;
+							 right: 350px;
+							 z-index: 4;}
+			.bossblood	    {position: absolute;
+							 top: 400px;
+							 right: 50px;
+							 z-index: 4;}
+			div				{font-size: 50px;
+							 color: red;}
+			.playerImg		{position: absolute;
+							 top: 420px;
+							 left: 20px;
+							 z-index: 3;}
+			.computerHp     {position: absolute;
+							 top: 360px;
+							 right: 90px;
+							 font-weight: bold;
+							 font-size: 22pt;
+							 color: #ff1493;}		
+            .playerHp       {position: absolute;
+							 top: 360px;
+							 right: 530px;
+							 font-weight: bold;
+							 font-size: 22pt;
+							 color: #ff1493;}
+            .Home           {position: absolute;
+							 top: 300px;
+							 left: 20px;
+							 width: 5em;}                              							 
+		</style>
+		<script type = "text/javascript">
+			var choice = [false,false,false,false,false];			
+			var round = ["attackcard","defend"];
+			var cardvalue = [0,0,0,0,0];
+			var cardtype = [0,0,0,0,0];
+			
+			var time = 0;
+			var playervalue = 0;
+			var bosspoint = 0;
+			var playerHP = 9;
+			var bossHP = 9;
+			
+			var player_point = 0;
+			var computer_point = 0;
+			var compare = 0;
+			//圖片變數!!!
+			var Keelung_Id;
+			var Taipei_Id;
+			var Taoyuan_Id;
+			var Hsinchu_Id;
+			var Miaoli_Id;
+			var Taichung_Id;
+			var Changhua_Id;
+			var Yunlin_Id;
+			var Chiayi_Id;
+			var Tainan_Id;
+			var Kaohsiung_Id;
+			var Pingtung_Id;
+			var Ilan_Id;
+			var Taitung_Id;
+			var Hualien_Id;
+			var Nantou_Id;
+			var Penghu_Id;
+			var GreenIsland_Id;
+			var OrchidIsland_Id;
+			//圖片變數!!!
+			
+			
+			var result;//結果誰贏了 的圖片
+			var taiwan_city = 18;//0~18 共19個
+			var taiwan = [];
+			function win_lose()
+			{
+				var button = document.getElementById("OK");
+				var decidevalue = document.getElementById("decidevalue");
+				var A = document.getElementById("playervalue");
+				var B = document.getElementById("bossvalue");
+				
+				if(playerHP <= 0)
+				{
+					button.disabled = true;
+					//decidevalue.src = "Lose.png";//!!!!!!!!!!!!
+					
+					console.log(taiwan[compare]);
+					
+					taiwan[compare].src = taiwan[compare].src.replace(".png","")+"green.png";//src+_green
+					taiwan_city--;
+					compare++;//replace("你要換掉的東西","要換甚麼字串上去");
+					computer_point++;
+					if(taiwan_city<0){
+						whoWin();
+					}
+					//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+					
+					A.innerHTML = " ";
+					B.innerHTML = " ";
+					document.getElementById("next").disabled = false;
+					document.getElementById( "next" ).addEventListener( 
+			        "click", function() {start();} , false );
+				}
+				else if(bossHP <= 0)
+				{	
+					button.disabled = true;
+					decidevalue.src = "Win.png";
+					taiwan[compare].src = taiwan[compare].src.replace(".png","")+"blue.png";//src+_blue
+					taiwan_city--;
+					compare++;
+					player_point++;
+					if(taiwan_city<0){
+						whoWin();
+					}
+					//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+					A.innerHTML = "";
+					B.innerHTML = "";
+					document.getElementById("next").disabled = false;
+					document.getElementById( "next" ).addEventListener( 
+			        "click", function() {start();} , false );
+				}
+				else
+				{
+					button.disabled = false;
+				}
+			}
+			function whoWin(){
+				if(player_point>=computer_point){
+				    document.getElementById("next").disabled = true;
+					result.setAttribute("style","z-index:"+2+";");
+					result.src = "win.gif";
+				}
+				else{
+				    document.getElementById("next").disabled = true;
+					result.setAttribute("style","z-index:"+2+";");
+					result.src = "Lose.png";
+				}
+				
+				player_point = 0;//記得重置
+				computer_point = 0;
+				compare = 0;
+				document.getElementById("next").disabled = false;
+				document.getElementById( "next" ).addEventListener( 
+			        "click", function() { location.href = "file:///C:/Martin/%E7%B6%B2%E7%A8%8B%E5%B0%88%E6%A1%88ver2/Home.html"; start(); } , false );
+			}
+			
+			
+			function addnew_card()
+			{		
+				for(var i=0;i<5;i++)
+				{
+					if(cardvalue[i] == 0)
+					{	
+						var temp = document.getElementById("card"+(i+1));
+						cardvalue[i]=Math.floor(1+Math.random()*5);
+						cardtype[i]=Math.floor(Math.random()*2);
+						
+						choice[i] = false;
+						temp.src = round[cardtype[i]]+cardvalue[i]+".png";
+					}
+				}
+			}
+			
+			function deleteCard()
+			{
+				var front = 0;
+				for(var i=0;i<5;i++)
+				{
+					if(choice[i])
+					{
+						var card = document.getElementById("card"+(i+1));
+						cardvalue[i] = 0;
+						
+						card.src = "black.png";
+					}
+				}
+			}
+			
+			function clearposition()
+			{
+				for(var i=0;i<5;i++)
+				{
+					for(var j=0;j<5;j++)
+					{
+						if(cardvalue[i] > cardvalue[j])
+						{
+							swap(cardvalue,cardvalue,i,j);
+							swap(cardtype,cardtype,i,j);
+							swap(choice,choice,i,j);
+						}
+					}
+				}
+				setCard();
+			}
+			
+			function swap(a,b,i,j)
+			{	
+				var temp = a[i];
+				a[i] = b[j];
+				b[j] = temp;
+			}
+			
+			function setCard()
+			{
+				for(var i=0;i<5;i++)
+				{
+					var temp = document.getElementById("card"+(i+1));
+					if(cardvalue[i] <= 0)
+					{
+						temp.src = "black.png";
+					}
+					else
+					{
+						temp.src = round[cardtype[i]]+cardvalue[i]+".png";
+					}
+				}
+			}
+			
+			function turnCheck()
+			{
+				var decidevalue = document.getElementById("decidevalue");
+				var Button = document.getElementById("OK");
+				
+				Button.disabled = true;
+				
+				if(playerHP <= 0)
+			    {
+					playerHP = 9;
+				}
+				if(bossHP <= 0)
+				{
+				    bossHP = 9;
+				}
+				if(time == 1)
+				{
+					var sum = playervalue - bosspoint;
+					if(sum > 0)
+					{
+						var boss = document.getElementById("bossblood");
+						bossHP -= sum;
+						setHP(boss,bossHP);
+					}
+					playervalue = 0;
+					time = 2;
+					decidevalue.src = "Status_Ptc.png"
+					
+					deleteCard();
+					clearposition();
+				}
+				else if(time == 2)
+				{
+					var sum = bosspoint - playervalue;
+					if(sum > 0)
+					{
+						var player = document.getElementById("playerblood");
+						playerHP -= sum;
+						setHP(player,playerHP);
+					}
+					playervalue = 0;
+					time = 1;
+					decidevalue.src = "Status_Atk.png"
+					
+					deleteCard();
+					clearposition();
+					addnew_card();
+				}
+				win_lose()
+				
+				var playerPoint = document.getElementById("playervalue");
+				playerPoint.innerHTML = 0;
+				
+				AI();			
+			}
+			
+			function setHP(HP_Img,HP_Value)
+			{
+				if(HP_Value >= 0)
+				{
+					if(HP_Img.id == "playerblood" )
+					{
+						HP_Img.src = "leftblood"+HP_Value+".png";
+					}
+					else if(HP_Img.id == "bossblood")
+					{
+						HP_Img.src = "rightblood"+HP_Value+".png";
+					}
+				}
+				else
+				{
+					if(HP_Img.id == "playerblood" )
+					{
+						HP_Img.src =  "leftblood"+0+".png";
+					}
+					else if(HP_Img.id == "bossblood")
+					{
+						HP_Img.src = "rightblood"+0+".png";
+					}
+				}
+			}
+			
+			function AI()
+			{
+				bosspoint = Math.floor(1+Math.random()*10);
+				var point = document.getElementById("bossvalue");
+				point.innerHTML = bosspoint;
+			}
+			
+			function setPoint()
+			{
+				var sum = 0;
+				var point = document.getElementById("playervalue");
+				
+				for(var i=0;i<5;i++)
+				{
+					if(choice[i] && cardtype[i] == (time-1))
+					{
+						sum += cardvalue[i];
+					}
+				}
+				point.innerHTML = sum;
+				
+				playervalue = sum;
+			}
+			
+			function card_click()
+			{
+				if(this.id == "card1")
+				{
+					if(choice[0])
+					{
+						this.src = this.src.replace("_selected","");
+						choice[0] = false;
+					}
+					else
+					{
+						this.src = this.src.replace(".png","")+"_selected.png";
+						choice[0] = true;
+					}
+				}
+				else if(this.id == "card2")
+				{
+					if(choice[1])
+					{
+						this.src = this.src.replace("_selected","");
+						choice[1] = false;
+					}
+					else
+					{
+						this.src = this.src.replace(".png","")+"_selected.png";
+						choice[1] = true;
+					}
+				}
+				else if(this.id == "card3")
+				{
+					if(choice[2])
+					{
+						this.src = this.src.replace("_selected","");
+						choice[2] = false;
+					}
+					else
+					{
+						this.src = this.src.replace(".png","")+"_selected.png";
+						choice[2] = true;
+					}
+				}
+				else if(this.id == "card4")
+				{
+					if(choice[3])
+					{
+						this.src = this.src.replace("_selected","");
+						choice[3] = false;
+					}
+					else
+					{
+						this.src = this.src.replace(".png","")+"_selected.png";
+						choice[3] = true;
+					}
+				}
+				else if(this.id == "card5")
+				{
+					if(choice[4])
+					{
+						this.src = this.src.replace("_selected","");
+						choice[4] = false;
+					}
+					else
+					{
+						this.src = this.src.replace(".png","")+"_selected.png";
+						choice[4] = true;
+					}
+				}		
+				setPoint();
+			}
+			
+			function First()
+			{	
+				result = document.getElementById("result");
+				 result.setAttribute("style","z-index:"+0+";");
+				 result.src = "blank.png";
+				var card1 = document.getElementById("card1");
+				var card2 = document.getElementById("card2");
+				var card3 = document.getElementById("card3");
+				var card4 = document.getElementById("card4");
+				var card5 = document.getElementById("card5");
+				var hp_boss = document.getElementById("bossblood");
+				var hp_player = document.getElementById("playerblood");
+				var decidevalue = document.getElementById("decidevalue");
+				var playerHP = 9;
+			    var bossHP = 9;
+						
+				decidevalue.src = "Status_Atk.png";
+				time = 1;
+				
+				cardvalue[0]=Math.floor(1+Math.random()*5);
+				cardtype[0]=Math.floor(Math.random()*2);
+				card1.src = round[cardtype[0]]+cardvalue[0]+".png";
+				
+				cardvalue[1]=Math.floor(1+Math.random()*5);
+				cardtype[1]=Math.floor(Math.random()*2);
+				card2.src = round[cardtype[1]]+cardvalue[1]+".png";
+				
+				cardvalue[2]=Math.floor(1+Math.random()*5);
+				cardtype[2]=Math.floor(Math.random()*2);
+				card3.src = round[cardtype[2]]+cardvalue[2]+".png";
+				
+				cardvalue[3]=Math.floor(1+Math.random()*5);
+				cardtype[3]=Math.floor(Math.random()*2);
+				card4.src = round[cardtype[3]]+cardvalue[3]+".png";
+				
+				cardvalue[4]=Math.floor(1+Math.random()*5);
+				cardtype[4]=Math.floor(Math.random()*2);
+				card5.src = round[cardtype[4]]+cardvalue[4]+".png";
+				
+				var playerPoint = document.getElementById("playervalue");
+				playerPoint.innerHTML = 0;
+				
+				setHP(hp_boss,bossHP);
+				setHP(hp_player,playerHP);
+				
+				clearposition();
+				
+				AI();
+			}
+			
+			
+			function start()
+			{
+				var button = document.getElementById("OK");
+				var nextbutton = document.getElementById("next");
+				var card1 = document.getElementById("card1");
+				var card2 = document.getElementById("card2");
+				var card3 = document.getElementById("card3");
+				var card4 = document.getElementById("card4");
+				var card5 = document.getElementById("card5");
+				var hp_boss = document.getElementById("bossblood");
+				var hp_player = document.getElementById("playerblood");
+				//圖片!!!!!!!!!!!!!!!!
+				
+				 taiwan[0] = document.getElementById("Keelung");
+				 taiwan[1] = document.getElementById("Taipei");
+				 taiwan[2] = document.getElementById("Taoyuan");
+				 taiwan[3] = document.getElementById("Hsinchu");
+				 taiwan[4] = document.getElementById("Miaoli");
+				 taiwan[5] = document.getElementById("Taichung");
+				 taiwan[6] = document.getElementById("Changhua");
+				 taiwan[7] = document.getElementById("Yunlin");
+				 taiwan[8] = document.getElementById("Chiayi");
+				 taiwan[9] = document.getElementById("Tainan");
+				 taiwan[10] = document.getElementById("Kaohsiung");
+				 taiwan[11] = document.getElementById("Pingtung");
+				 taiwan[12] = document.getElementById("Ilan");
+				 taiwan[13] = document.getElementById("Taitung");
+				 taiwan[14] = document.getElementById("Hualien");
+				 
+				 taiwan[15] = document.getElementById("Nantou");
+				 taiwan[16] = document.getElementById("Penghu");
+				 taiwan[17] = document.getElementById("GreenIsland");
+				 taiwan[18] = document.getElementById("OrchidIsland");
+				//圖片!!!!!!!!!!!!!
+				document.getElementById("next").disabled = true;
+				button.disabled = false;
+				
+				button.addEventListener("click",turnCheck,false);
+				card1.addEventListener("click",card_click,false);
+				card2.addEventListener("click",card_click,false);
+				card3.addEventListener("click",card_click,false);
+				card4.addEventListener("click",card_click,false);
+				card5.addEventListener("click",card_click,false);
+				
+				First();
+			}
+			window.addEventListener("load",start,false);
+		</script> 
+	</head>
+	<body>
+        <embed src="戰鬥.mp4" autostart=true hidden=true loop=true width = 0 height = 0">
+		
+		<img src = "word01.png" class = "word01_image" alt = "word01_image">
+		<img src = "word02.png" class = "word02_image" alt = "word02_image">
+		<img src = "word03.png" class = "word03_image" alt = "word03_image">
+		<img src = "word04.png" class = "word04_image" alt = "word04_image">
+   		<img id = "Keelung" src = "Keelung.png" class = "Keelungimage" alt = "Keelungimage">
+		<img id = "Taipei" src = "Taipei.png" class = "Taipeiimage" alt = "Taipeiimage">
+		<img id = "Taoyuan" src = "Taoyuan.png" class = "Taoyuanimage" alt = "Taoyuanimage">
+		<img id = "Hsinchu" src = "Hsinchu.png" class = "Hsinchuimage" alt = "Hsinchuimage">
+		<img id = "Miaoli" src = "Miaoli.png" class = "Miaoliimage" alt = "Miaoliimage">
+		<img id = "Taichung" src = "Taichung.png" class = "Taichungimage" alt = "Taichungimage">
+		<img id = "Changhua" src = "Changhua.png" class = "Changhuaimage" alt = "Changhuaimage">
+		<img id = "Yunlin" src = "Yunlin.png" class = "Yunlinimage" alt = "Yunlinimage">
+		<img id = "Chiayi" src = "Chiayi.png" class = "Chiayiimage" alt = "Chiayiimage">
+		<img id = "Tainan" src = "Tainan.png" class = "Tainanimage" alt = "Tainanimage">
+		<img id = "Kaohsiung" src = "Kaohsiung.png" class = "Kaohsiungimage" alt = "Kaohsiungimage">
+		<img id = "Pingtung" src = "Pingtung.png" class = "Pingtungimage" alt = "Pingtungimage">
+		<img id = "Ilan" src = "Ilan.png" class = "Ilanimage" alt = "Ilanimage">
+		<img id = "Hualien" src = "Hualien.png" class = "Hualienimage" alt = "Hualienimage">
+		<img id = "Taitung" src = "Taitung.png" class = "Taitungimage" alt = "Taitungimage">
+		<img id = "Nantou" src = "Nantou.png" class = "Nantouimage" alt = "Nantouimage">
+		<img id = "Penghu" src = "Penghu.png" class = "Penghuimage" alt = "Penghuimage">
+		<img id = "GreenIsland" src = "GreenIsland.png" class = "GreenIslandimage" alt = "GreenIslandimage">
+		<img id = "OrchidIsland" src = "OrchidIsland.png" class = "OrchidIslandimage" alt = "OrchidIslandimage">
+		<img id = "result" src = "blank.png" class = "resultimage" alt = "No">
+		
+		<img class = "playerPosition" src = "player.png" alt = "No">
+		
+		<img id = "playerblood" src = "leftblood9.png" class = "playerblood" alt = "No">
+		<img id = "bossblood" src = "rightblood9.png" class = "bossblood" alt = "No">			
+		
+		<img id = "decidevalue" src = "decidevalue.png" class = "decidevalue" alt = "No">		
+		
+		<img id = "card1" src = "blank.png" class = "cardsize" alt = "No">
+		<img id = "card2" src = "blank.png" class = "cardsize" alt = "No">
+		<img id = "card3" src = "blank.png" class = "cardsize" alt = "No">
+		<img id = "card4" src = "blank.png" class = "cardsize" alt = "No">
+		<img id = "card5" src = "blank.png" class = "cardsize" alt = "No">
+		
+		<a href = "index.html"><img id = "Home" src = "Home.png" class = "Home" alt = "No"></a>
+		
+		<div id = "playervalue"></div>
+		<div id = "bossvalue"></div>
+		<div class ="computerHp">電腦Hp</div>
+		<div class ="playerHp">玩家Hp</div>
+		<input id = "OK" type = "Button" value = "OK" class = "Ready">
+		<input id = "next" type = "Button" class = "nextbutton" value = "Next">
+	</body>
+</html>
