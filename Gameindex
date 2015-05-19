@@ -40,11 +40,7 @@
 				width:200px;
 				height:250px;
 				z-index:3;
-			}
-		    
-			
-			
-			
+			} 					
 			.Keelungimage{ position: absolute;
 							top: 200px;
 							left: 50px; 
